@@ -350,8 +350,9 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/lead-bg.jpg);
+    background: url(../images/graduation_skewed.jpg);
     background-size: cover;
+    // background-position: 0% 20%;
     padding: 15px;
     overflow: hidden;
 }
@@ -365,7 +366,7 @@ footer {
     text-align: center;
 
     h1, h2 {
-        margin: 0;
+        margin: 1;
     }
 
     h1 {
@@ -375,13 +376,14 @@ footer {
         text-transform: uppercase;
         letter-spacing: 0.05em;
         line-height: 0.9em;
+        margin-bottom: 20px
     }
 
     h2 {
         color: lighten($base-color, 25%);
         font-weight: 500;
         font-size: 2.25em;
-        margin-bottom: 15px;
+        margin-bottom: 20px
     }
 }
 
