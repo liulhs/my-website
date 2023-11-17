@@ -653,14 +653,25 @@ footer {
 }
 
 .pyppt-project {
-    $background-opacity: 0.5;
-    background-image: url('../images/');
+    $background-opacity: 0.9;
+    background-image: url('../images/output.svg');
     background-color: rgba(255, 255, 255, $background-opacity);
     background-blend-mode: overlay;
-    background-size: cover;
+    background-size: 50%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 80% 50%;
 }
+
+.minecraft-project {
+    $background-opacity: 0.75;
+    background-image: url('../images/Fireball.jpg');
+    background-color: rgba(255, 255, 255, $background-opacity);
+    background-blend-mode: overlay;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: 80% 50%;
+}
+
 
 .project-image {
     float: left;
