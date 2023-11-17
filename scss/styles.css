@@ -548,6 +548,15 @@ footer {
   border-radius: 4px;
 }
 
+.pyppt-project {
+  background-image: url("../images/");
+  background-color: rgba(255, 255, 255, 0.5);
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .project-image {
   float: left;
 }
